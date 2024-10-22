@@ -1,0 +1,20 @@
+algoritmo "vetor"
+
+var
+   v: vetor[1..2] de caractere  // Declaração de um vetor "v" que armazena caracteres, com 2 posições (índice de 1 a 2)
+   i: inteiro                   // Declaração de uma variável inteira "i", usada para controle de loops
+
+inicio
+
+   // Laço de repetição para solicitar ao usuário dois nomes e armazená-los no vetor "v"
+   para i de 1 ate 2 faca
+      escreval("Informe um nome: ")  // Exibe a mensagem solicitando ao usuário um nome
+      leia(v[i])                     // Lê o nome inserido pelo usuário e armazena na posição "i" do vetor "v"
+   fimpara
+
+   // Laço de repetição para exibir os valores armazenados no vetor "v"
+   para i de 1 ate 2 faca
+      escreval(" O valor na posição ",i," é: ",v[i])  // Exibe o valor armazenado no vetor "v" na posição "i"
+   fimpara
+
+fimalgoritmo
