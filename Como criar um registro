@@ -1,0 +1,40 @@
+Algoritmo "registro"
+
+Tipo
+//Essas informações funcionam como caixas ou gavetas. Como uma página de um caderno.
+
+Taluno= registro
+nome:caractere
+idade:inteiro
+nota1:real
+nota2:real
+media: real
+fimregistro
+
+Var
+
+aluno: Taluno
+
+
+Inicio
+escreval("INFORME O NOME DO ALUNO")//Sempre escrever aluno pois precisa acessar
+leia(aluno.nome)
+
+escreval("INFORME A IDADE DO ALUNO")
+leia(aluno.idade)
+
+escreval("INFORME NOTA1: ")
+leia(aluno.nota1)
+
+escreval("INFORME NOTA2: ")
+leia(aluno.nota2)
+
+aluno.media<- (aluno.nota1+aluno.nota2)/2 //Temos que direcionar a máquina ao que preciamos que ela interprete.
+
+escreval("NOME DO ALUNO É: ", aluno.nome)
+escreval("A IDADE DO ALUNO É: ", aluno.idade)
+escreval("A MEDIA DO ALUNO É: ", aluno.media)
+
+
+
+Fimalgoritmo
